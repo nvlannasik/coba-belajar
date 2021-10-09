@@ -3,8 +3,8 @@ import { Text, View } from "react-native";
 
 const HelloWorldApp = () => {
   return(
-    <View>
-      <Text>Hello World!</Text>
+    <View style= {{flex: 1, justifyContent: "center", alignItems: "center"}}>
+      <Text style= {{fontWeight:"bold", fontSize: 32}}>Hello World!</Text>
     </View>
   )
 }
