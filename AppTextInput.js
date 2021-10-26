@@ -14,6 +14,12 @@ function _onPressButton() {
     Alert.alert("data telah disimpan");
 }
 
+class ComponentAction {
+    static onPressButton(){
+        Alert.alert("data telah disimpan");
+    }
+}
+
 const AppTextInput = () => {
     return(
         <View>
@@ -23,7 +29,7 @@ const AppTextInput = () => {
             <TextInput placeholder="Write Your Age" keyboardType="numeric" style={styles.input}/>
             <Text>Email</Text>
             <TextInput placeholder="Write Your Email" keyboardType="email-address" style={styles.input}/>
-            <Button title="save" onPress={_onPressButton} />
+            <Button title="save" onPress={() => ComponentAction.onPressButton()} />
 
         </View>
     )
