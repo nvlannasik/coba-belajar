@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Image, TextInput, Button, StyleSheet } from "react-native";
+import { Text, View, Image, TextInput, Button, StyleSheet, Alert } from "react-native";
 
 const styles = StyleSheet.create({
     input: {
@@ -19,7 +19,7 @@ const AppTextInput = () => {
             <TextInput placeholder="Write Your Age" keyboardType="numeric" style={styles.input}/>
             <Text>Email</Text>
             <TextInput placeholder="Write Your Email" keyboardType="email-address" style={styles.input}/>
-            <Button title="save" />
+            <Button title="save" onPress={() => Alert.alert('data sudah disimpan')} />
 
         </View>
     )
