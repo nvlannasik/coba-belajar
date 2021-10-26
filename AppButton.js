@@ -5,7 +5,7 @@ const AppButton = () => {
     return (
         <View>
             <Text>App Button</Text>
-            <Button tittle="click me"/> 
+            <Button title="click me"/> 
         </View>
     )
 }
