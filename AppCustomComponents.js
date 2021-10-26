@@ -7,7 +7,7 @@ export const AppHeader = () => {
       <View style={styles.buatHeader}>
         <Text style={styles.text_big}>Ahmad Naoval Annasik</Text>
       </View>
-    )
+    );
   }
   
 export const AppContent = () => {
@@ -16,6 +16,13 @@ export const AppContent = () => {
         <Text style={styles.textContent}>1103194008</Text>
         <Image source={{uri: 'https://adaptivenetworklab.org/img/team/noval.png'}} style={styles.gambar}></Image>
       </View>
-    )
+    );
   }
   
+  export const AppFooter = (props) => {
+    return(
+      <View style={styles.footer} >
+        <Text style={styles.textContent}>{props.footerContent}</Text>
+      </View>
+    );
+  }

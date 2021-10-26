@@ -3,8 +3,8 @@
  */
 
 import {AppRegistry} from 'react-native';
-import AppTextInput from './AppTextInput';
+import AppProps from './AppProps';
 import {name as appName} from './app.json';
 
 
-AppRegistry.registerComponent(appName, () => AppTextInput);
+AppRegistry.registerComponent(appName, () => AppProps);

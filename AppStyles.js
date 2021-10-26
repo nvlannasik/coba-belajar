@@ -30,5 +30,9 @@ export default StyleSheet.create({
       color: "black",
       textAlign: "center",
   
+    },
+    footer: {
+      height:40,
+      backgroundColor: 'gray',
     }
   })
