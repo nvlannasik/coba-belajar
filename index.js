@@ -3,8 +3,8 @@
  */
 
 import {AppRegistry} from 'react-native';
-import AppHome from './AppHome';
+import ScreenUtama from './ScreenUtama';
 import {name as appName} from './app.json';
 
 
-AppRegistry.registerComponent(appName, () => AppHome);
+AppRegistry.registerComponent(appName, () => ScreenUtama);
