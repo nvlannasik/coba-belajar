@@ -34,5 +34,42 @@ export default StyleSheet.create({
     footer: {
       height:40,
       backgroundColor: 'gray',
+    },
+    button: {
+      marginBottom: 30,
+      alignItems: 'center',
+      backgroundColor: '#2196F3',
+    },
+    buttonText: {
+      textAlign: 'center',
+      padding: 20,
+      color: 'white',
+      fontSize: 20,
+    },
+    gambarMovie: {
+      width: 400,
+      height:490,
+      resizeMode:'contain',
+    },
+    headerWoLogo: {
+      flex:1,
+      width:'auto',
+      flexDirection: 'row',
+      marginLeft:-15,
+      paddingLeft: 0,
+    },
+    kataKunci: {
+      width: '66%', 
+      height: 40, 
+      backgroundColor: 'white', 
+      marginTop: 5, 
+      marginLeft:10, 
+      marginRight:10,
+    },
+    gambarsisip: {
+      width: 50,
+      height: 50,
+      
     }
+
   })
